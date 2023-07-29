@@ -1,0 +1,125 @@
+.home__rating{
+    background: #fff;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    padding-top: 30px;
+    padding-bottom: 90px;
+}
+.search{
+    margin-top: 90px;
+    margin-bottom: 70px;
+    
+    &__container{
+        padding-top: 30px;
+    }
+    
+    &__input{
+        border-radius: 10px;
+        background: #fff;
+        padding: 20px;
+        width: 100%;
+        font-family: 'Raleway';
+        color: #141414;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+    
+    &__block{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 24px;
+    }
+    
+    &__box{
+        width: 100%;
+        height: 462px;
+        border-radius: 10px;
+        border: 1px solid #000;
+        box-shadow: 0px 4px 4px 0px #000;
+    }
+    
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.movies{
+    margin-top: 90px;
+    margin-bottom: 70px;
+    
+    &__container{
+        padding-top: 30px;
+    }
+    
+    &__block{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 24px;
+    }
+    &__title{
+        color: #fff;
+        font-family: 'Raleway';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-bottom: 51px;
+        
+    }
+    
+    &__box{
+        height: 462px;
+        width: 100%;
+        border-radius: 10px;
+        border: 1px solid #000;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 1);
+    }
+    
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.series{
+    margin-top: 90px;
+    margin-bottom: 70px;
+    
+    &__container{
+        padding-top: 30px;
+    }
+    &__title{
+        color: #fff;
+        font-family: 'Raleway';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-bottom: 51px;
+        
+    }
+    
+    &__block{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-gap: 24px;
+    }
+    
+    &__box{
+        height: 462px;
+        width: 100%;
+        border-radius: 10px;
+        border: 1px solid #000;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 1);
+    }
+    
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}

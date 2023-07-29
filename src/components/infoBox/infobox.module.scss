@@ -1,0 +1,107 @@
+.info{
+    position: relative;
+    height: 0px;
+    background: #000;
+    margin-top: 30px;
+    overflow: hidden;
+    transition: .5s;
+
+    &.active{
+        height: 700px;
+    }
+
+    &__close{
+        width: 56px;
+        height: 56px;
+        background: rgba(20, 20, 20, 0.7);
+        border-radius: 33px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        z-index: 3;
+        svg{
+            font-size: 20px;
+        }
+    }
+
+    &__image{
+        position: absolute;
+        right: 0;
+        top: 0;
+        // bottom: 0;
+        height: 100%;
+        z-index: 1;
+    }
+
+    &__box{
+        position: relative;
+        z-index: 2;
+        background: linear-gradient(90deg, #000000 40%, rgba(0, 0, 0, 0.2) 70%, rgba(0, 0, 0, 0) 100%);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 50px;
+        gap: 30px;
+    }
+
+    &__title{
+        font-family: "Raleway";
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 59px;
+        color: #fff;
+    }
+
+    &__text{
+        font-family: "Raleway";
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #fff;
+        width: 935px;
+    }
+
+    &__about{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-family: "Montserrat";
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    &__actors{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        width: 450px;
+    }
+
+    &__button {
+        width: max-content;
+        font-family: "Raleway";
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 400;
+        color: #fff;
+        padding: 10px;
+        background: #149A03;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        cursor: pointer;
+
+        svg {
+            font-size: 25px;
+        }
+    }
+}
